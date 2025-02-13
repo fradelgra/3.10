@@ -1,0 +1,57 @@
+.color-bar {
+    display: flex;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.color {
+    flex: 1;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.map, .video {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.cal-estudiar {
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.estudiar {
+    text-decoration: underline;
+}
+
+.firma {
+    background-color: #d0eaf4;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
